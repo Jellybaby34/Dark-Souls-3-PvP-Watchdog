@@ -1,3 +1,8 @@
+1.0.2
+  Fixed invisible phantoms
+  Fixed not being sent home when host enters a boss fight
+  Added auto-revive detection
+
 1.0.1
   Fixed item drop crash
   Fixed bullet spam detection sensitivity
