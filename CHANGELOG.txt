@@ -1,3 +1,9 @@
+1.0.3
+  Fixed hollow infusion buff being detected as cheating
+  Fixed dialog boxes preventing maximizing the game after being minimized in full screen
+  Added option to disable the beep on startup
+  Added more error logging
+
 1.0.2
   Fixed invisible phantoms
   Fixed not being sent home when host enters a boss fight
