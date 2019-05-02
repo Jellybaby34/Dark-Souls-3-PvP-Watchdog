@@ -21,7 +21,7 @@ This tool identifies cheaters and attempts to mitigate the damage which they can
 
 ## Will this softban me
 
-This will not ban you no matter what anyone says. If you feel this DLL has banned you, present proof or else I will laugh at you. I can prove it won't :)
+The only instance this will softban if if you have used version 1.02 or version 1.03. These versions had a hook for the auto revive detection that was detected by the anticheat. From 1.04 we removed the offending hook however if you have used either of those versions, you will have been flagged. This was due to a section of the anticheat not being bypassed which was unfortunately missed until the update had been pushed to the public repo. Going forward from this we have gone back to assess the anticheat further and are awaiting ban waves before releasing updates. If you have been banned, get in contact with namco as if its your first ban, you can be unbanned after a period of time.
 
 ## How to use it
 
