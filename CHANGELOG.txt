@@ -1,3 +1,19 @@
+1.0.6
+  Fixed hollow weapons being detected as cheated stats
+  Tweaked fake buffed stats detection
+  Patched a whole bunch of crashes and exploits
+  Fixed certain legit item bags being replaced with fading souls
+  Further tweaked bullet spam detection
+  Added ban list to identify known cheaters using alt accounts
+  Added ini setting to skip the Bamco and FromSoft logos on launch (credits to bladecoding, https://github.com/bladecoding/DarkSouls3RemoveIntroScreens)
+  Added crash handler to help debug crashes
+
+1.0.5
+  Bug fixes (a lot)
+
+1.0.4
+  Removed the Auto-Revive detection.
+
 1.0.3
   Fixed hollow infusion buff being detected as cheating
   Fixed dialog boxes preventing maximizing the game after being minimized in full screen
