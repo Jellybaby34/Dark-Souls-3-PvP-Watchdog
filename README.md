@@ -10,6 +10,7 @@ This is a port of the original Dark Souls PvP Watchdog made by /u/eur0pa with ad
 This tool identifies cheaters and attempts to mitigate the damage which they can do through multiple methods.
 
  * It will detect stat and soul level anomalies of other players, allowing your to remove the offender.
+ * It will detect players that auto-revive upon being killed
  * It will prevent dangerous effects such as curse from being applied to you during PvP.
  * It will mitigate and patch a wide range of exploits including multiple crashes.
  * This will block people dropping and giving you gestures or impossible weapons which you can't drop if picked up.
@@ -18,10 +19,12 @@ This tool identifies cheaters and attempts to mitigate the damage which they can
  * It will let you reconnect to the game server after being sent to the main menu for FPS issues without needing to restart the game.
  * If enabled, it can autokick detected cheaters when hosting.
  * If enabled, it can backup saves every time a new session is established and store a set amount of backups before deleting the oldest.
+ * It will detect known cheaters using alt accounts and flag them preemptively.
 
-## Will this softban me
+## Can this softban
 
-The only instance this will softban if if you have used version 1.02 or version 1.03. These versions had a hook for the auto revive detection that was detected by the anticheat. From 1.04 we removed the offending hook however if you have used either of those versions, you will have been flagged. This was due to a section of the anticheat not being bypassed which was unfortunately missed until the update had been pushed to the public repo. Going forward from this we have gone back to assess the anticheat further and are awaiting ban waves before releasing updates. If you have been banned, get in contact with namco as if its your first ban, you can be unbanned after a period of time.
+The only instance this will softban is if you have used version 1.02 or version 1.03. These versions had a hook for the auto revive detection that was detected by the anticheat. From 1.04 we removed the offending hook however if you have used either of those versions, you will have been flagged. This was due to a section of the anticheat not being bypassed which was unfortunately missed until the update had been pushed to the public repo. Going forward from this we have gone back to assess the anticheat further and are awaiting ban waves before releasing updates. If you have been banned, get in contact with namco as if its your first ban, you can be unbanned after a period of time.
+
 
 ## How to use it
 
@@ -37,11 +40,11 @@ The only instance this will softban if if you have used version 1.02 or version 
 #### Example in-game overlay output
 
     (cheater, red color)
-     !1 player1 [F1] to kick    [F5] to ignore   SL [Real 110-115]
-     ^^ ^       ^               ^                ^ anomaly detected and details (if available)
-     || |       +---------------+ commands (if available)
-     || |         
-     || | 
+     !1 player1 (player1steam) [F1] to kick    [F5] to ignore   SL [Real 110-115]
+     ^^ ^		^              ^               ^                ^ anomaly detected and details (if available)
+     || |       |              +---------------+ commands (if available)
+     || |       | 
+     || |       + player steam name (if available) 
      || + player name
      |+ player id
      + cheating detected
@@ -79,13 +82,15 @@ If Watchdog doesn't protect you from something, post it to the issue tracker.
 
 ### package contents
 
-d3d11.dll ....................... the Dark Souls 3 PvP Watchdog DLL
+d3d11.dll ...................... the Dark Souls 3 PvP Watchdog DLL
 
-DS3PWSettings.ini .................. the options file
+DS3PWSettings.ini .............. the options file
 
 changelog.txt .................. change history for the tool
 
 readme.txt ..................... the text document you're currently looking at
+
+WatchdogData ................... A data file used to store information used by watchdog
 
 ### resources
 
