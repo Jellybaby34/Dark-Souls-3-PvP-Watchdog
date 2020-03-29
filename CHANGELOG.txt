@@ -1,3 +1,10 @@
+1.0.7
+  Scrapped fake buffed stats detection
+  Patched more crashes and exploits
+  Tweaked existing fixes
+  Fixed arena issues hopefully
+  Other things i've forgot to document
+
 1.0.6
   Fixed hollow weapons being detected as cheated stats
   Tweaked fake buffed stats detection
