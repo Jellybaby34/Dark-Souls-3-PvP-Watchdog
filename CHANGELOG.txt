@@ -1,3 +1,19 @@
+1.0.10
+	Fixed online sessions (For real this time)
+	Tweaked logging when kicking players, it now dumps their main account ID if it's an alt.
+	Added mechanism that auto flags alt accounts of mains that you have blocked (If you don't block the actual account that owns the copy of Dark Souls III, it won't do anything)
+	Fixed watchdog data not parsing correctly
+	Added option to use custom sounds for notification such as start up or invader notifications
+	Hopefully fixed things like Rivatuner/Afterburner from unloading watchdog
+	Fixed legit buffs being flagged as malicious
+	Added HUD customisation options, you can now specify the font used by watchdog and the colours for elements of the HUD
+
+1.0.9
+	Fixed everything
+
+1.0.8
+	Broke everything
+
 1.0.7
   Scrapped fake buffed stats detection
   Patched more crashes and exploits

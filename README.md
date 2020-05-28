@@ -10,10 +10,11 @@ This is a port of the original Dark Souls PvP Watchdog made by /u/eur0pa with ad
 This tool identifies cheaters and attempts to mitigate the damage which they can do through multiple methods.
 
  * It will detect stat and soul level anomalies of other players, allowing your to remove the offender.
+ * It will prevent items being forced into your inventory by other players
  * It will detect players that auto-revive upon being killed
  * It will prevent dangerous effects such as curse from being applied to you during PvP.
  * It will mitigate and patch a wide range of exploits including multiple crashes.
- * This will block people dropping and giving you gestures or impossible weapons which you can't drop if picked up.
+ * It will block people dropping and giving you gestures or impossible weapons which you can't drop if picked up.
  * It will attempt to mitigate framerate drops caused by bullets.
  * It will play a sound when invading or getting invaded, useful if the game is out of focus.
  * It will let you reconnect to the game server after being sent to the main menu for FPS issues without needing to restart the game.
