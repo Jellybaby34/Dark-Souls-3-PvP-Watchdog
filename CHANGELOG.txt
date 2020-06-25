@@ -1,3 +1,11 @@
+1.0.11
+	Fixed crash when kicking detected cheaters
+	Increased engine memory allocation limits (Some rare crashes were occuring due to dantelion running out of memory)
+	Added experimental summon scaling glitch detection (This should flag any phantoms that are not correctly scaled)
+	Fixed crash due to soul whisps spam
+	Updated version check to allow JP version exe
+	Added more explanatory logging
+
 1.0.10
 	Fixed online sessions (For real this time)
 	Tweaked logging when kicking players, it now dumps their main account ID if it's an alt.
